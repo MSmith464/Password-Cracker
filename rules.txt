@@ -1,0 +1,16 @@
+This password cracker loops through five rules given below:
+
+**Note: You must provide the file of hashed passwords you want cracked (beginning with "user:password") 
+and also the file containing your dictionary. Cracked passwords will be written to a new file 
+called cracked_passwds.txt. You will need the java security library **
+
+rule 1 - takes a seven character password from the given dictionary, captializes the first letter,
+and adds a digit (0-9) to the end.
+
+rule 2 - A four digit password following a !, *, #, or ~ symbol.
+
+rule 3 - A five character from the given dictionary password replacing a with @ and l with 1.
+
+rule 4 - Any password made of 6 digits.
+
+rule 5 - Any size word from the given dictionaty.
